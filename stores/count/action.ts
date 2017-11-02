@@ -1,5 +1,4 @@
-import { inject } from "dependency-inject";
-import { Action } from "dob";
+import { Action, inject } from "dob";
 import ApplicationStore from "./store";
 
 export default class ApplicationAction {
