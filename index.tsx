@@ -4,10 +4,10 @@ import * as ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Layout from "./layout/layout.component";
-import Store from "./stores/index";
+import store from "./stores/index";
 
 ReactDOM.render(
-  <Provider {...Store}>
+  <Provider {...store}>
     <Layout />
   </Provider>,
   document.getElementById("react-dom"),

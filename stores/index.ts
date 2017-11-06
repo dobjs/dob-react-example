@@ -6,12 +6,9 @@ import ApplicationStore from "./application/store";
 import CountAction from "./count/action";
 import CountStore from "./count/store";
 
-const store = combineStores({
+export default combineStores({
   ApplicationAction,
   ApplicationStore,
   CountAction,
   CountStore
 })
-
-export default store
-export type IStore = typeof store
