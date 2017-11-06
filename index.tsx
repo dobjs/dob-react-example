@@ -4,11 +4,14 @@ import * as ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Layout from "./layout/layout.component";
-import store from "./stores/index";
+import Store from "./stores/index";
 
 ReactDOM.render(
-  <Provider {...store}>
-    <Layout />
+  <Provider {...Store}>
+    <Router>
+      <Layout />
+    </Router>
   </Provider>,
   document.getElementById("react-dom"),
 );
+

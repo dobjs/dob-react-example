@@ -12,19 +12,17 @@ export default class Layout extends React.PureComponent<Props, State> {
 
   public render() {
     return (
-      <Router>
+      <div>
         <div>
-          <div>
-            <Link to="/">首页</Link>
-            <Link to="/count">Count</Link>
-          </div>
-
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/count" component={Count} />
-          </Switch>
+          <Link to="/">首页</Link>
+          <Link to="/count">Count</Link>
         </div>
-      </Router>
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/count" component={Count} />
+        </Switch>
+      </div>
     );
   }
 }
