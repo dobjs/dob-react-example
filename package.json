@@ -1,5 +1,5 @@
 {
-  "name": "dob-example",
+  "name": "dob-react-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ascoders/dob-example.git"
+    "url": "git+https://github.com/ascoders/dob-react-example.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ascoders/dob-example/issues"
+    "url": "https://github.com/ascoders/dob-react-example/issues"
   },
-  "homepage": "https://github.com/ascoders/dob-example#readme",
+  "homepage": "https://github.com/ascoders/dob-react-example#readme",
   "dependencies": {
     "dob": "^2.4.15",
     "dob-react": "^2.3.3",
